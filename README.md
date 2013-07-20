@@ -1,2 +1,2 @@
-tumblrtheme
+Tumblr theme for Skillshare class
 ===========
