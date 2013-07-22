@@ -30,7 +30,39 @@
 <div id="content">
     {block:Posts}
     <article>
-        <!--Post markup to be added here-->
+        {block:Posts}
+    <article>
+{block:Text}
+…
+{/block:Text}
+{block:Photo}
+…
+{/block:Photo}
+{block:Photoset}
+…
+{/block:Photoset}
+{block:Quote}
+…
+{/block:Quote}
+{block:Link}
+…
+{/block:Link}
+{block:Chat}
+…
+{/block:Chat}
+{block:Audio}
+…
+{/block:Audio}
+{block:Video}
+…
+{/block:Video}
+{block:Answer}
+…
+{/block:Answer}
+<footer class="metadata">
+</footer>
+</article>
+{/block:Posts}
      </article>
     {/block:Posts}
     {block:Pagination}
